@@ -36,8 +36,3 @@
 
 - Una vez dentro de la máquina virtual correr el siguiente comando:
   - "cd app && node app.js"
-
-
-### Extra
-
-- Recomendable usar la vm.box llamada "ubuntu/focal64"
