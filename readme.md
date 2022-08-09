@@ -30,7 +30,7 @@
   - "pip install ansible" (Windows/Mac)
   - "sudo apt install ansible" (Linux)
 
-- Correr los siguientes comandos dentro del directorio de ejercicio1-shell: 
+- Correr los siguientes comandos dentro del directorio de ejercicio1-ansible: 
   - "vagrant up"
   - "vagrant ssh"
 
