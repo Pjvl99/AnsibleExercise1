@@ -1,0 +1,11 @@
+- name: Ansible
+  hosts: all
+  tasks:
+    - name: Update
+      ansible.builtin.shell: sudo apt update
+      
+    - name: Installing NodeJs
+      ansible.builtin.shell: curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash - && sudo apt install -y nodejs
+
+    - name: Installing Npm
+      ansible.builtin.shell: cd app && npm install
